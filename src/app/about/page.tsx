@@ -3,11 +3,11 @@ import { SectionLabel, SectionTitle, Reveal } from '@/components/ui'
 import CTASection from '@/components/sections/CTASection'
 
 const timeline = [
-  { year: '2005', title: 'The Beginning', desc: 'Founded in a small workshop in Addis Ababa with 5 artisans and a vision to create world-class Ethiopian furniture.' },
-  { year: '2009', title: 'First Showroom', desc: 'Opened our first dedicated showroom on Bole Road, Addis Ababa, attracting hotels and high-end residential clients.' },
-  { year: '2013', title: 'Expansion to Adama', desc: 'Launched our second branch in Adama, serving Central Ethiopia with the same premium quality.' },
+  { year: '2005', title: 'The Beginning', desc: 'Founded in a small workshop in Bishoftu with 5 artisans and a vision to create world-class Ethiopian furniture.' },
+  { year: '2009', title: 'First Showroom', desc: 'Opened our first dedicated showroom in Bishoftu, attracting hotels and high-end residential clients.' },
+  { year: '2013', title: 'Expansion to Addis Ababa', desc: 'Launched our second branch in Addis Ababa, serving the capital with the same premium quality.' },
   { year: '2017', title: 'Manufacturing Scale-Up', desc: 'Invested in modern CNC machinery while preserving hand-finishing — blending technology with craftsmanship.' },
-  { year: '2020', title: 'Hawassa & Bahir Dar', desc: 'Opened two more showrooms, completing our national coverage across Ethiopia\'s major cities.' },
+  { year: '2020', title: 'National Recognition', desc: 'Became a household name known for quality and excellence.' },
   { year: '2024', title: 'Digital Presence', desc: 'Launched our online platform, making it easier for Ethiopians everywhere to discover and order our furniture.' },
 ]
 
@@ -31,7 +31,7 @@ export default function AboutPage() {
             <em className="text-[#E8C97A] not-italic italic">Ethiopian Craftsmanship</em>
           </SectionTitle>
           <p className="text-white/55 text-base font-light mt-3 max-w-[520px] leading-relaxed">
-            From a small Addis Ababa workshop to Ethiopia's most trusted furniture brand — this is our story.
+            From a small Bishoftu workshop to Ethiopia's most trusted furniture brand — this is our story.
           </p>
         </div>
       </div>
@@ -44,7 +44,7 @@ export default function AboutPage() {
               <div className="relative h-[400px] rounded-[4px] overflow-hidden">
                 <Image
                   src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=900&q=85"
-                  alt="Habesha Living workshop"
+                  alt="Melaku Furniture workshop"
                   fill
                   sizes="50vw"
                   className="object-cover"

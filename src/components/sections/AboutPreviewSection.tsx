@@ -6,7 +6,7 @@ import { Reveal, SectionLabel, SectionTitle } from '@/components/ui'
 
 const stats = [
   { num: '12,000+', label: 'Happy Families' },
-  { num: '4', label: 'City Branches' },
+  { num: '2', label: 'City Branches' },
   { num: '200+', label: 'Artisans' },
 ]
 
@@ -21,7 +21,7 @@ export default function AboutPreviewSection() {
             <div className="absolute right-0 top-0 w-[75%] h-[370px] rounded-[4px] overflow-hidden shadow-2xl">
               <Image
                 src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=900&q=85"
-                alt="Habesha Living showroom"
+                alt="Melaku Furniture showroom"
                 fill
                 className="object-cover"
                 sizes="50vw"
@@ -64,10 +64,10 @@ export default function AboutPreviewSection() {
 
             <Reveal delay={0.1}>
               <p className="text-[#6B6460] text-[0.95rem] leading-[1.85] font-light mb-4">
-                Founded in 2005 in the heart of Addis Ababa, Habesha Living began as a small workshop with a single vision: to bring world-class furniture design to Ethiopian homes without sacrificing local craftsmanship and identity.
+                Founded in 2005 in the heart of Bishoftu, Melaku Furniture began as a small workshop with a single vision: to bring world-class furniture design to Ethiopian homes without sacrificing local craftsmanship and identity.
               </p>
               <p className="text-[#6B6460] text-[0.95rem] leading-[1.85] font-light mb-8">
-                Today, we operate manufacturing facilities across four cities, employing over 200 skilled artisans who blend traditional Ethiopian woodworking techniques with contemporary design principles.
+                Today, we operate manufacturing facilities across two cities, employing over 200 skilled artisans who blend traditional Ethiopian woodworking techniques with contemporary design principles.
               </p>
             </Reveal>
 

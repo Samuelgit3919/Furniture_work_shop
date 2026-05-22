@@ -48,11 +48,11 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
             <div className="w-9 h-9 bg-gradient-to-br from-[#C9A84C] to-[#9A7530] rounded-[4px] flex items-center justify-center flex-shrink-0">
-              <span className="font-serif font-bold text-white text-lg leading-none">H</span>
+              <span className="font-serif font-bold text-white text-lg leading-none">M</span>
             </div>
             <div>
               <span className="font-serif font-semibold text-white text-[1.15rem] block leading-tight tracking-wide group-hover:text-[#E8C97A] transition-colors duration-300">
-                Habesha Living
+                Melaku Furniture
               </span>
               <span className="text-[#C9A84C] text-[0.6rem] tracking-[0.15em] uppercase font-sans font-light block">
                 Premium Ethiopian Furniture
@@ -144,7 +144,7 @@ export default function Navbar() {
               </Link>
               <div className="mt-6 flex flex-col gap-2 text-white/40 text-sm">
                 <span>📞 +251 91 123 4567</span>
-                <span>📧 info@habeshaliving.et</span>
+                <span>📧 info@melakufurniture.et</span>
               </div>
             </motion.div>
           </motion.div>

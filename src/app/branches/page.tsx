@@ -15,7 +15,7 @@ export default function BranchesPage() {
             Find a Branch <em className="text-[#E8C97A] not-italic italic">Near You</em>
           </SectionTitle>
           <p className="text-white/50 text-sm mt-2 font-light">
-            {branches.length} showrooms across Ethiopia
+            {branches.length} showrooms in Ethiopia
           </p>
         </div>
       </div>

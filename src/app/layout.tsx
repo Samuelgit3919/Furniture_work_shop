@@ -4,12 +4,12 @@ import Navbar from '@/components/layout/Navbar'
 import Footer from '@/components/layout/Footer'
 
 export const metadata: Metadata = {
-  title: 'Habesha Living – Premium Ethiopian Furniture',
+  title: 'Melaku Furniture – Premium Ethiopian Furniture',
   description:
-    'Habesha Living crafts premium, modern furniture for Ethiopian homes, hotels, and offices. Showrooms in Addis Ababa, Adama, Hawassa, and Bahir Dar.',
-  keywords: ['Ethiopian furniture', 'Addis Ababa furniture', 'premium furniture Ethiopia', 'custom furniture', 'bedroom furniture', 'living room furniture'],
+    'Melaku Furniture crafts premium, modern furniture for Ethiopian homes, hotels, and offices. Showrooms in Bishoftu and Addis Ababa.',
+  keywords: ['Ethiopian furniture', 'Addis Ababa furniture', 'Bishoftu furniture', 'premium furniture Ethiopia', 'custom furniture', 'bedroom furniture', 'living room furniture'],
   openGraph: {
-    title: 'Habesha Living – Premium Ethiopian Furniture',
+    title: 'Melaku Furniture – Premium Ethiopian Furniture',
     description: 'Handcrafted modern furniture for Ethiopian homes and businesses.',
     type: 'website',
   },

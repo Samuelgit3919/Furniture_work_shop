@@ -18,12 +18,10 @@ const footerLinks = {
     { label: 'Press', href: '#' },
   ],
   Contact: [
+    { label: 'Bishoftu (Main)', href: '/branches#bishoftu' },
     { label: 'Addis Ababa', href: '/branches#addis' },
-    { label: 'Adama', href: '/branches#adama' },
-    { label: 'Hawassa', href: '/branches#hawassa' },
-    { label: 'Bahir Dar', href: '/branches#bahirdar' },
     { label: 'WhatsApp Us', href: 'https://wa.me/251911234567' },
-    { label: 'info@habeshaliving.et', href: 'mailto:info@habeshaliving.et' },
+    { label: 'info@melakufurniture.et', href: 'mailto:info@melakufurniture.et' },
   ],
 }
 
@@ -36,10 +34,10 @@ export default function Footer() {
           <div>
             <Link href="/" className="flex items-center gap-3 mb-4">
               <div className="w-9 h-9 bg-gradient-to-br from-[#C9A84C] to-[#9A7530] rounded-[4px] flex items-center justify-center">
-                <span className="font-serif font-bold text-white text-lg">H</span>
+                <span className="font-serif font-bold text-white text-lg">M</span>
               </div>
               <span className="font-serif font-semibold text-white text-[1.15rem] tracking-wide">
-                Habesha Living
+                Melaku Furniture
               </span>
             </Link>
             <p className="text-white/40 text-sm leading-relaxed font-light max-w-[270px] mb-6">
@@ -80,7 +78,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-white/[0.08] pt-6 flex flex-col sm:flex-row justify-between items-center gap-3">
           <span className="text-white/30 text-[0.78rem]">
-            © 2025 <span className="text-[#E8C97A]">Habesha Living</span>. All rights reserved.
+            © 2025 <span className="text-[#E8C97A]">Melaku Furniture</span>. All rights reserved.
           </span>
           <span className="text-white/30 text-[0.78rem]">
             Made with ❤️ in <span className="text-[#E8C97A]">Ethiopia</span>

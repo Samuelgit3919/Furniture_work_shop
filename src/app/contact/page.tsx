@@ -8,12 +8,12 @@ import { cn } from '@/lib/utils'
 
 const channels = [
   { icon: '📱', label: 'WhatsApp', value: '+251 91 123 4567', href: 'https://wa.me/251911234567', color: 'bg-green-50 text-green-600' },
-  { icon: '✈️', label: 'Telegram', value: '@HabeshaLiving', href: 'https://t.me/HabeshaLiving', color: 'bg-blue-50 text-blue-600' },
+  { icon: '✈️', label: 'Telegram', value: '@MelakuFurniture', href: 'https://t.me/MelakuFurniture', color: 'bg-blue-50 text-blue-600' },
   { icon: '📞', label: 'Phone', value: '+251 11 234 5678', href: 'tel:+251112345678', color: 'bg-[#F2EDE3] text-[#9A7530]' },
-  { icon: '📧', label: 'Email', value: 'info@habeshaliving.et', href: 'mailto:info@habeshaliving.et', color: 'bg-[#F2EDE3] text-[#9A7530]' },
+  { icon: '📧', label: 'Email', value: 'info@melakufurniture.et', href: 'mailto:info@melakufurniture.et', color: 'bg-[#F2EDE3] text-[#9A7530]' },
 ]
 
-const branches = ['Addis Ababa – Bole', 'Adama', 'Hawassa', 'Bahir Dar']
+const branches = ['Bishoftu (Main)', 'Addis Ababa']
 
 type FormData = {
   name: string
@@ -71,7 +71,7 @@ export default function ContactPage() {
                   Reach Us <em className="text-[#8B5E3C] not-italic italic">Directly</em>
                 </SectionTitle>
                 <p className="text-[#6B6460] text-sm leading-[1.85] font-light mt-3 mb-8 max-w-md">
-                  Pick your preferred channel. Our team in all four branches is ready to assist you with product selection, custom orders, and delivery.
+                  Pick your preferred channel. Our team in both branches is ready to assist you with product selection, custom orders, and delivery.
                 </p>
               </Reveal>
 

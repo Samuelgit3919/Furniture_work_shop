@@ -19,7 +19,7 @@ export default function ProductDetailPage({ params }: { params: { id: string } }
   const related = products.filter((p) => p.category === product.category && p.id !== product.id).slice(0, 3)
 
   const whatsappMsg = encodeURIComponent(
-    `Hello Habesha Living! I'm interested in: *${product.name}* (${formatPrice(product.price)}). Please send more details.`
+    `Hello Melaku Furniture! I'm interested in: *${product.name}* (${formatPrice(product.price)}). Please send more details.`
   )
 
   return (
