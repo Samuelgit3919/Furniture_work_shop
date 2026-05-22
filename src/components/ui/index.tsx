@@ -41,16 +41,19 @@ export function Reveal({
   children,
   delay = 0,
   className,
+  id,
 }: {
   children: React.ReactNode
   delay?: number
   className?: string
+  id?: string
 }) {
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-80px' })
 
   return (
     <motion.div
+      id={id}
       ref={ref}
       initial={{ opacity: 0, y: 22 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
