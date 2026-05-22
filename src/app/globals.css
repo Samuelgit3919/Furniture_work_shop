@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-playfair: 'Playfair Display', Georgia, serif;
+  --font-dm-sans: 'DM Sans', system-ui, sans-serif;
+  --gold: #C9A84C;
+  --gold-light: #E8C97A;
+  --gold-dark: #9A7530;
+  --wood: #8B5E3C;
+  --wood-light: #C4915A;
+  --cream: #F2EDE3;
+  --warm-white: #FAF8F5;
+  --charcoal: #1A1A1A;
+  --text-muted: #6B6460;
+  --text-dark: #2A2218;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-dm-sans);
+  background-color: var(--warm-white);
+  color: var(--text-dark);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--gold-dark);
+  border-radius: 3px;
+}
+
+/* Selection color */
+::selection {
+  background: rgba(201, 168, 76, 0.2);
+  color: var(--text-dark);
+}
+
+@layer utilities {
+  .font-serif {
+    font-family: var(--font-playfair);
+  }
+  .font-sans {
+    font-family: var(--font-dm-sans);
+  }
+  .text-gold {
+    color: var(--gold);
+  }
+  .text-gold-light {
+    color: var(--gold-light);
+  }
+  .text-gold-dark {
+    color: var(--gold-dark);
+  }
+  .text-wood {
+    color: var(--wood);
+  }
+  .bg-cream {
+    background-color: var(--cream);
+  }
+  .bg-warm-white {
+    background-color: var(--warm-white);
+  }
+  .bg-charcoal {
+    background-color: var(--charcoal);
+  }
+  .border-gold {
+    border-color: var(--gold);
+  }
+}

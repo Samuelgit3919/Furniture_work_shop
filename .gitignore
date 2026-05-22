@@ -1,0 +1,19 @@
+# node_modules
+node_modules/
+
+# public folder
+public/
+
+# .env
+.env
+
+# build folder
+.next/
+.claude/
+.agents/
+
+CLAUDE.md
+AGENTS.md
+README.md
+
+package-lock.json
